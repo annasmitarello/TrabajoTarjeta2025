@@ -1,0 +1,33 @@
+## Ignore build outputs
+[Bb]in/
+[Oo]bj/
+
+## Ignore NuGet files
+*.nupkg
+*.nuget.props
+*.nuget.targets
+nuget.config
+packages/
+
+## Ignore IDE files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+
+## Ignore test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+## Ignore .NET Core files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Ignore coverage reports
+*.coverage
+*.coveragexml
+
+## Ignore auto-generated files
+*.[Cc]ache
